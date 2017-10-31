@@ -1,4 +1,4 @@
-FROM ubuntu:16.10
+FROM ubuntu:16.04
 EXPOSE 8080
 RUN apt-get update && \
     apt-get install git build-essential cmake libcurl4-openssl-dev wget -y && \
